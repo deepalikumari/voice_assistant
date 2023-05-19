@@ -1,0 +1,232 @@
+{
+    "intents": [
+            {
+                    "tag": "greeting",
+                    "patterns": [
+                            "Hi",
+                            "How are you",
+                            "Is anyone there?",
+                            "Hello",
+                            "Good day",
+                            "Whats up",
+                            "how are ya",
+                            "heyy",
+                            "whatsup"
+                    ],
+                    "responses": [
+                            "Hello!",
+                            "Good to see you again!",
+                            "Hi there, how can I help?"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "goodbye",
+                    "patterns": [
+                            "cya",
+                            "see you",
+                            "bye bye",
+                            "See you later",
+                            "Goodbye",
+                            "I am Leaving",
+                            "Bye",
+                            "Have a Good day",
+                            "talk to you later",
+                            "tyyl",
+                            "i got to go",
+                            "gtg"
+                    ],
+                    "responses": [
+                            "Sad to see you go :(",
+                            "Talk to you later",
+                            "Goodbye!",
+                            "Come back soon"
+                    ]
+
+            },
+            {
+                    "tag": "thanks",
+                    "patterns": [
+                    "Thanks",
+                    "Thank you",
+                    "That's helpful",
+                    "Awesome, thanks",
+                    "Thanks for helping me"
+                        ],
+                   "responses": [
+                    "Happy to help!",
+                    "Any time!",
+                    "My pleasure"
+                   ]
+           },
+           {
+                  "tag": "jokes",
+                  "patterns": [
+                    "Tell me a joke",
+                    "Joke",
+                    "Make me laugh"
+                 ],
+                 "responses": [
+                    "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                    "I ate a clock yesterday, it was very time-consuming",
+                    "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                    "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                    "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                    "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                    "What do you call a snowman with a suntan? A puddle.",
+                    "How does a penguin build a house? Igloos it together",
+                    "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                    "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                    "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+                 ],
+                  "context": [
+                    "jokes"
+                 ]
+           },
+           {
+                  "tag": "whatsup",
+                  "patterns": [
+                    "Whats up",
+                    "Wazzup",
+                    "How are you",
+                    "sup","How you doing"
+                  ],
+                  "responses": [
+                    "All good..What about you?"
+                  ]
+            },
+            {
+                  "tag": "haha",
+                  "patterns": [
+                    "haha",
+                    "lol",
+                    "rofl",
+                    "lmao",
+                    "thats funny"
+                  ],
+                 "responses": [
+                    "Glad I could make you laugh !"
+                 ]
+            },
+            {
+                "tag": "health",
+                "patterns": [
+                  "How are you",
+                  "how you",
+                  "are you fine",
+                  "are you good",
+                  "how's health"
+                ],
+               "responses": [
+                "fine","perfect","cool","like you","are you fine? I'm Fine."
+               ]
+         },
+         {
+            "tag": "identity",
+            "patterns": [
+              "your name",
+              "what is your name",
+              "who are you",
+              "what are you",
+              "who"
+            ],
+           "responses": [
+            "BOSSS","I am BOSS","An A.I Assistant","My Name is BOSS","Great Assistant"
+           ]
+         },
+         {
+            "tag": "time",
+            "patterns": [
+              "what is time",
+              "time",
+              "samay",
+              "what's time",
+              "tell time"
+            ],
+           "responses": [
+            "time"
+           ]
+         },
+         {
+                "tag": "date",
+                "patterns": [
+                  "what is date",
+                  "date",
+                  "tareek",
+                  "what's date",
+                  "tell  today date"
+                ],
+               "responses": [
+                "date"
+               ]
+             },
+             {
+                "tag": "day",
+                "patterns": [
+                  "what is day",
+                  "day",
+                  "din",
+                  "what's day",
+                  "tell  today day"
+                ],
+               "responses": [
+                "day"
+               ]
+             },
+              {
+                "tag": "wikipedia",
+                "patterns": [
+                  "what is",
+                  "who is",
+                  "wikipedia"
+                ],
+               "responses": [
+                "wikipedia"
+               ]
+             },
+             {
+               "tag": "google",
+               "patterns": [
+                 "google search",
+                 "google",
+                 "search"
+               ],
+              "responses": [
+               "google"
+              ]
+            },
+            {
+              "tag": "Decision tree",
+              "patterns": [
+                "Decision tree classifier",
+                "say ressult of decision tree classifier",
+                "Decision tree"
+              ],
+             "responses": [
+              "Decision tree"
+             ]
+           },{
+            "tag": "Principal component analysis",
+            "patterns": [
+              "Do Principal component analysis",
+              "show result using principal component analysis",
+              "say feature of iris dataset",
+              "feature name"
+            ],
+           "responses": [
+            "Principal component analysis"
+           ]
+         },{
+          "tag": "regression ",
+          "patterns": [
+            "linear regression result",
+            "show regression",
+            "result regression analysis",
+            "regression"
+          ],
+         "responses": [
+          "regression"
+         ]
+        }
+                ]
+}
